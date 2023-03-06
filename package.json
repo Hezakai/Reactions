@@ -1,0 +1,35 @@
+{
+  "name": "reactions",
+  "version": "1.0.0",
+  "description": "A tech blog about everyting React, utilizing the MVC paradigm.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hezakai/Reactions.git"
+  },
+  "keywords": [
+    "react",
+    "tech",
+    "blog"
+  ],
+  "author": "Eric Graves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hezakai/Reactions/issues"
+  },
+  "homepage": "https://github.com/Hezakai/Reactions#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.29.0"
+  }
+}
