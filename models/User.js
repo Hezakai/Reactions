@@ -1,7 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('./index');
 
-class User extends Modl {}
+class User extends Model {}
 
 User.init(
     {
